@@ -23,7 +23,7 @@
                         <p class="recipe-difficulty-<?= $difficultyClass ?>"><?= $recipe['difficulty'] ?></p>
                     </div>
                     <h2>
-                        <a href="#" class="post-title"><?= $recipe['title'] ?></a>
+                        <a href="<?= $BASE_URL ?>recipe.php?id=<?= $recipe['id'] ?>" class="post-title"><?= $recipe['title'] ?></a>
                     </h2>
                     <p class="post-description"><?= $recipe['description'] ?></p>
                     <div class="tags-container">
